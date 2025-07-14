@@ -171,7 +171,7 @@ http://IP_адрес_вашего_сервера:порт/WebBasePath(приме
   <picture>
     <img alt="Project Logo" src="./media/3x-ui_1.png" width="256" height="auto">
   </picture>
-</details>
+
 
 ### Теперь можно переходить к настройке первого подключения.
 - Переходим в боковом меню "Подключения" -> Нажимаем кнопку "Добавить подключение"
@@ -179,14 +179,13 @@ http://IP_адрес_вашего_сервера:порт/WebBasePath(приме
   <picture>
     <img alt="Project Logo" src="./media/3x-ui_2.png" width="512" height="auto">
   </picture>
-</details>
 
 ### Сначала настроим протоколы
 
   <picture>
     <img alt="Project Logo" src="./media/3x-ui_3.png" width="512" height="auto">
   </picture>
-</details>
+
 
 - Примечание - название подключения
 - Протокол - vless
@@ -198,7 +197,7 @@ http://IP_адрес_вашего_сервера:порт/WebBasePath(приме
   <picture>
     <img alt="Project Logo" src="./media/3x-ui_4.png" width="512" height="auto">
   </picture>
-</details>
+
 
 - uTLS - я выбираю chrome, т.к. это основной мой браузер, но большая часть рекомендаций сходятся на том что нужно указывать firefox
 - Домен - панель заполнит автоматически
@@ -210,7 +209,7 @@ http://IP_адрес_вашего_сервера:порт/WebBasePath(приме
   <picture>
     <img alt="Project Logo" src="./media/3x-ui_5.png" width="512" height="auto">
   </picture>
-</details>
+
 
 - Email - здесь не обязательно должен быть email, указываем что-нибудь что поможет в будущем идентифицировать клиента и протокол
 - Subscription - Поле оставляем пустым
@@ -220,14 +219,17 @@ http://IP_адрес_вашего_сервера:порт/WebBasePath(приме
   <picture>
     <img alt="Project Logo" src="./media/3x-ui_6.png" width="512" height="auto">
   </picture>
-</details>
+
 
 ### открываем конфиг для заполнения
 
   <picture>
     <img alt="Project Logo" src="./media/3x-ui_7.png" width="512" height="auto">
   </picture>
+
+  
 </details>
+
 ---
 
 # 📦 Установка
@@ -322,7 +324,8 @@ proxies:
     reality-opts:
       public-key: "Iqxxxxxxxx9GkU-but1xxxxxDNEfy-p2ujq_SxxxxnY" # заменяем на "pbk" из конфига url
       ### выглядет он вот так 
-      ### vless://2dxxxxe4-0xxx-4d30-969c-e27exxxxx448@999.666.00.12:47712?type=tcp&security=reality&pbk=Iqxxxxxxxx9GkU-but1xxxxxDNEfy-p2ujq_SxxxxnY&fp=chrome&sni=google.com&sid=0761xxxx63&spx=%2F#Test-Test
+      ### vless://2dxxxxe4-0xxx-4d30-969c-e27exxxxx448@999.666.00.12:47712?type=tcp&security=reality&
+      ### pbk=Iqxxxxxxxx9GkU-but1xxxxxDNEfy-p2ujq_SxxxxnY&fp=chrome&sni=google.com&sid=0761xxxx63&spx=%2F#Test-Test
       short-id: "0761xxxx63" # заменяем на "sid" из конфига
       spider-x: "/"
     servername: "google.com"
@@ -356,6 +359,7 @@ rules:
 ```
 
 - После вставки нажми `Ctrl+D`, чтобы завершить ввод. 🚀
+  
 ---
 
 ### Шаг 2: 📌 Создание docker-compose.yml и установка n8n + VPN
@@ -475,6 +479,7 @@ services:
 
 
 ```
+
 - После вставки нажми `Ctrl+D`, чтобы завершить ввод. 🚀
 
 <details>
@@ -507,16 +512,16 @@ docker-compose up -d
 пример -> `http://192.168.1.40:6093`
 
   <picture>
-    <img alt="Project Logo" src="./media/yacd-meta_1.png" width="512" height="auto">
+    <img alt="Project Logo" src="./media/yacd-meta_1.png" width="700" height="auto">
   </picture>
-</details>
+
 
 ### после чего выбираем наш сервер
 
   <picture>
-    <img alt="Project Logo" src="./media/yacd-meta_2.png" width="512" height="auto">
+    <img alt="Project Logo" src="./media/yacd-meta_2.png" width="700" height="auto">
   </picture>
-</details>
+
 
 ### открывается главная сраница. выбираем пункт меню `Config`
 
@@ -526,7 +531,7 @@ docker-compose up -d
   <picture>
     <img alt="Project Logo" src="./media/yacd-meta_conf.png" width="700" height="auto">
   </picture>
-</details>
+
 
 
 ### открывается главная сраница. выбираем пункт меню `Proxies`
@@ -536,21 +541,21 @@ docker-compose up -d
   <picture>
     <img alt="Project Logo" src="./media/yacd-meta_3-1.png" width="700" height="auto">
   </picture>
-</details>
+
 
 - Нажимаем на молнию 
 
   <picture>
     <img alt="Project Logo" src="./media/yacd-meta_3-2.png" width="700" height="auto">
   </picture>
-</details>
+
 
 - если всё сделано правильно то увидим пинг до сервера
 
   <picture>
     <img alt="Project Logo" src="./media/yacd-meta_4.png" width="700" height="auto">
   </picture>
-</details>
+
 
 ### открывается главная сраница. выбираем пункт меню `Logs`
 дальше открываем
@@ -565,7 +570,7 @@ docker-compose up -d
   <picture>
     <img alt="Project Logo" src="./media/n8n.gif" width="700" height="auto">
   </picture>
-</details>
+
 
 
 
